@@ -3184,7 +3184,7 @@ public class TokenServlet extends CMSServlet {
         }
 
         params.setVersion1DiversificationScheme(diversVer1Keys);
-        CMS.debug(method + " Version 1 keys Divers: " + divers);
+        CMS.debug(method + " Version 1 keys Divers: " + diversVer1Keys);
 
         String keyType = null;
         try {
